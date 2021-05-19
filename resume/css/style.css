@@ -47,65 +47,6 @@ body {
     background:#aaabbb ;
     transition: background 0.2s ease-in-out;
   }
- 
-/*profile card*/
-
-  .card{
-    cursor: pointer;
-    overflow: hidden;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    background: none;
-  }
-  
-  .profile-img
-  {
-   
-    transition: all 0.3s;
-  }
-  
-  .details{
-    position: absolute;
-    bottom: 0; left: 0;
-    background-color:none;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    width: 100%;
-    padding: 20px 10px;
-    transform: translateY(100%);
-    transition: all 0.3s;
-  }
-  .details a{
-    display: inline-block;
-    margin-left: 20px;
-    color: #2e9cca;
-    transform: translateY(50px);
-    transition: all 0.3s;
-  }
-  
-  .details a:first-child{
-    transition-delay: 0.1s;
-  }
-  
-  .details a:nth-child(2){
-    transition-delay: 0.2s;
-  }
-  
-  .details a:last-child{
-    transition-delay: 0.3s;
-  }
-  
-  .card:hover img{
-    transform: scale(1.5);
-  }
-  
-  .card:hover .details, .card:hover .details a{
-    transform: none;
-
-  }
-  
   @media (max-width:360px){
   
     .card{
